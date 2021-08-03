@@ -1,0 +1,29 @@
+.input-text,.add-btn{
+    width:40%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    
+  }
+  li{
+      list-style: none;
+      padding: 10px 5px;
+  }
+  .add-btn{
+    width:20%;
+    margin-left: 10px;
+  }
+  .input-text:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+  .container{
+      display: flex;
+      justify-content: center;
+
+  }
